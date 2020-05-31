@@ -48,8 +48,8 @@ const signup = async (req, res, next) => {
   const createdUser = new User({
     name,
     email,
-    image: 'https://i.imgur.com/9pNffkj.png',
-    password, 
+    image: 'https://live.staticflickr.com/7631/26849088292_36fc52ee90_b.jpg',
+    password,
     places: []
   });
 
@@ -89,7 +89,10 @@ const login = async (req, res, next) => {
     return next(error);
   }
 
-  res.json({ message: 'Logged in!' });
+  res.json({
+    message: 'Logged in!',
+    user: existingUser.toObject({ getters: true })
+  });
 };
 
 exports.getUsers = getUsers;
