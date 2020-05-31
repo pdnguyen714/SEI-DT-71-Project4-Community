@@ -27,7 +27,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-.connect('mongodb+srv://sei:sei@cluster0-xtnng.mongodb.net/community?retryWrites=true&w=majority')
+.connect('mongodb+srv://sei:sei@cluster0-xtnng.mongodb.net/communityp4?retryWrites=true&w=majority')
 .then(() => {
   app.listen(5000);
 })
