@@ -5,8 +5,8 @@
 Welcome to Communtity, where users are able to post places they've traveled to or would like to travel to. It is Community's goal that a safe space is created to incubate healing through sharing events and human connection.
 
 ## Screenshots
-![Screenshot1]([Imgur](https://i.imgur.com/vaZP90v.png))
-![Screenshot2](https://imgur.com/isjr1Zs) 
+![Screenshot1](https://i.imgur.com/vaZP90v.png)
+![Screenshot2](https://i.imgur.com/isjr1Zs.png)
 
 ## Links
 * [Trello Board](https://trello.com/b/FLo9LCZ4/sei-dt-71project-4)
