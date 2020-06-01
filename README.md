@@ -5,7 +5,7 @@
 Welcome to Communtity, where users are able to post places they've traveled to or would like to travel to. It is Community's goal that a safe space is created to incubate healing through sharing events and human connection.
 
 ## Screenshots
-![Screenshot1](https://imgur.com/vaZP90v)
+![Screenshot1]([Imgur](https://i.imgur.com/vaZP90v.png))
 ![Screenshot2](https://imgur.com/isjr1Zs) 
 
 ## Links
