@@ -40,7 +40,7 @@ const PlaceItem = props => {
   };
 
   return (
-    <>
+    <React.Fragment>
       <ErrorModal error={error} onClear={clearError} />
       <Modal
         show={showMap}
@@ -60,14 +60,14 @@ const PlaceItem = props => {
         header="Are you sure?"
         footerClass="place-item__modal-actions"
         footer={
-          <>
+          <React.Fragment>
             <Button inverse onClick={cancelDeleteHandler}>
               CANCEL
             </Button>
             <Button danger onClick={confirmDeleteHandler}>
               DELETE
             </Button>
-          </>
+          </React.Fragment>
         }
       >
         <p>
@@ -79,7 +79,7 @@ const PlaceItem = props => {
         <Card className="place-item__content">
           {isLoading && <LoadingSpinner asOverlay />}
           <div className="place-item__image">
-            <img src={props.image} alt={props.title} />
+            <img src={`http://localhost:5000/${props.image}`} alt={props.title} />
           </div>
           <div className="place-item__info">
             <h2>{props.title}</h2>
@@ -94,7 +94,7 @@ const PlaceItem = props => {
               <Button to={`/places/${props.id}`}>EDIT</Button>
             )}
 
-            {auth.isLoggedIn && (
+            {auth.userId === props.creatorId && (
               <Button danger onClick={showDeleteWarningHandler}>
                 DELETE
               </Button>
@@ -102,7 +102,7 @@ const PlaceItem = props => {
           </div>
         </Card>
       </li>
-    </>
+    </React.Fragment>
   );
 };
 
