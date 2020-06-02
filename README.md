@@ -10,7 +10,7 @@ Welcome to Community, where users are able to post places they've traveled to or
 
 ## Links
 * [Trello Board](https://trello.com/b/FLo9LCZ4/sei-dt-71project-4)
-* [Heroku Link]( )
+* [Heroku Link](https://sei-dt-71-p4-community.herokuapp.com/auth)
 
 ## Technologies Used
 * Mongoose, Express, React, Node.JS, MongoDB
