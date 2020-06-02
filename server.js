@@ -1,6 +1,5 @@
-const path = require('path');
-const logger = require('morgan');
 const fs = require('fs');
+const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -11,9 +10,6 @@ const usersRoutes = require('./routes/users-routes');
 const HttpError = require('./models/http-error');
 
 const app = express();
-
-app.use(logger('dev'));
-app.use(express.json());
 
 app.use(bodyParser.json());
 

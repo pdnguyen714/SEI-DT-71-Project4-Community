@@ -2,7 +2,7 @@
 ###### Connection is the path to healing
 
 ## General Description
-Welcome to Communtity, where users are able to post places they've traveled to or would like to travel to. It is Community's goal that a safe space is created to incubate healing through sharing events and human connection.
+Welcome to Community, where users are able to post places they've traveled to or would like to travel to. It is Community's goal that a safe space is created to incubate healing through sharing events and human connection.
 
 ## Screenshots
 ![Screenshot1](https://i.imgur.com/vaZP90v.png)
