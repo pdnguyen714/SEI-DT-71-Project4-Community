@@ -40,7 +40,7 @@ const UpdatePlace = () => {
     const fetchPlace = async () => {
       try {
         const responseData = await sendRequest(
-          `/api/places/${placeId}`
+          `http://localhost:5000/api/places/${placeId}`
         );
         setLoadedPlace(responseData.place);
         setFormData(
