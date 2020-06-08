@@ -70,7 +70,7 @@ const Auth = () => {
     if (isLoginMode) {
       try {
         const responseData = await sendRequest(
-          '/api/users/login',
+          `/api/users/login`,
           'POST',
           JSON.stringify({
             email: formState.inputs.email.value,
