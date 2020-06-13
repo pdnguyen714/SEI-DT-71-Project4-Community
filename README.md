@@ -1,5 +1,5 @@
 # Community
-###### Connection is the path to healing
+#### Connection is the path to healing
 
 ## General Description
 Welcome to Community, where users are able to post places they've traveled to or would like to travel to. It is Community's goal that a safe space is created to incubate healing through sharing events and human connection.
@@ -8,12 +8,11 @@ Welcome to Community, where users are able to post places they've traveled to or
 ![Screenshot1](https://i.imgur.com/vaZP90v.png)
 ![Screenshot2](https://i.imgur.com/isjr1Zs.png)
 
-## Links
-* [Trello Board](https://trello.com/b/FLo9LCZ4/sei-dt-71project-4)
+## Link
 * [Heroku Link](https://sei-dt-71-p4-community.herokuapp.com)
 
 ## Technologies Used
-* Mongoose, Express, React, Node.JS, MongoDB
+* CSS3, Bootstrap, Mongoose, Express, React.js, Node.JS, MongoDB
 
 ## Problems We're Solving:
 * Providing a safe space for healing among the global community through connection
